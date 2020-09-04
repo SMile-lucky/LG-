@@ -1,0 +1,26 @@
+footer{
+	margin-top: 30px;
+	width: 115%;
+	height: 55px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.copy{
+	position: relative;
+	text-align:center;
+	height: 21px;
+	padding-top: 20px;
+	color: #FFFFFF;	
+	margin-left: -518px;
+}
+.git{
+	position: absolute;
+	margin: -41px 890px;
+	height: 21px;
+	margin-left: 732px;
+}
+a{
+	text-decoration: none;
+	color:#0091f9;
+
+}

@@ -1,0 +1,30 @@
+* { margin: 0; padding: 0; border: none; }
+html,
+body { height: 100%; background: #93b3c6;padding:20px 0 0 0;}
+.tab{ position: relative;
+	display: flex; 
+	width: 78.125vw;
+	margin: 0 auto 45px;
+	justify-content:space-between; }
+.tab:before { position: absolute;
+	display: block;
+	width: 978px;
+	height: 216px;
+	content: "";
+	background: #fff; }
+.pic { position: relative; 
+	overflow: hidden; 
+	width: 78.125vw; 
+	height: 75vh; 
+	margin: 0 auto; 
+	background: #fff; 
+	box-shadow: 0 0 30px 0 rgba(8, 1, 3, .3); }
+.pic > img { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 98%; height: 96%; margin: auto;border: 5px #05a4f2 inset; }
+.tab-div{
+	    position: relative;
+	    padding-left: 16px;
+}
+.tab-div>img{
+	border-radius: 5px;
+	border: 1px #ff5401 solid;
+}

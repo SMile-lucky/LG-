@@ -1,0 +1,37 @@
+*{margin: 0; padding: 0;}
+body{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	background-color: #1F1F1F;
+}
+li{list-style: none;}
+a{ text-decoration: none;}
+#boxhdp{ width: 800px; height: 350px;margin: 0 auto;overflow: hidden; position:inherit;margin-left: 298px;}
+#img>li{ width: 100%; height: 100%; float: left; text-align: center; display: none;}
+#img>.current{display: block;}
+#li{position: absolute;
+    left: 50%;
+   margin-left: -70px;
+   margin-top: 320px;}
+#li>li{ width: 25px;height: 25px; background-color: #ccc; border-radius: 50%; margin-right: 5px; float: left; cursor: pointer;}
+#li>.on{ background-color: #f50;}
+#an{ display: none;}
+#an a{
+	position: absolute;
+	top: 33%;
+	margin-top: -20px;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(0,0,0,.3);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-family: "宋体";
+	font-weight: 600;
+	font-size: 1.2em;
+	margin-right: 251px;
+}
+#an a:hover{
+	background-color: rgba(255, 0, 0, 0.8);
+}
+#an .an-a2{ right: 0;}

@@ -1,0 +1,28 @@
+h3{
+	margin-left: 75px;
+	padding-top: 74px;
+	text-align: center;
+}
+.authon{
+	position: inherit;
+	width: 900px;
+	height: 380px;
+	border: #0091FF 2px solid;
+	margin-left: 220px;
+	background-color: rgba(0,0,0,0.8);
+	color: #ffffff;
+	text-shadow: 3px 9px 3px #400b0b;
+	text-indent: 28px;
+	margin-top: 97px;
+}
+h4{
+	text-align: center;
+}
+p{
+	line-height: 25px;
+	}
+.black{
+	padding-left: 25px;
+	width:850px ;
+	height: 350px;
+}
