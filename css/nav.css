@@ -1,0 +1,58 @@
+body,ul,p,hr,dd,dl,ol,h1,h2,h3,h4,h5{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgba(200,200,200,0.3);
+	font-family: "agency fb","微软雅黑";
+	font-size: 16px;
+}
+nav{
+	position:fixed;
+	width: 115%;
+	height: 55px;	
+	background-color:rgba(0,0,0,0.8);
+}
+nav div img {
+    margin-left: 240px;
+}
+.clear{
+	clear:left;
+}
+nav div ul{
+	margin-left: 370px;
+	margin-top: -57px;
+	clear: left;
+	line-height: 55px;
+	width: 900px;
+	height: 48px;
+	position: absolute;
+	padding-left: 154px;
+	
+}
+nav div ul li{
+	float: left;
+	color: #0091ff;
+	width: 100px;
+	height: 55px;
+	margin:1px 0 0 50px;
+	list-style: none;
+	text-align: center;
+}
+.xz{
+	background-color: #ffffff;
+	height: 55px;
+	width: 100px;
+	position: absolute;
+	margin-left: -72px;
+	
+}
+nav div ul li:hover{
+	background-color: #ffffff;
+	height:55px;
+	width: 100px;
+	transition: background-color 0.5s linear 0.1s; 
+	-o-transition: background-color 0.5s linear 0.1s;
+	-moz-transition:  background-color 0.5s linear 0.1s;
+	-webkit-transition: background-color 0.5s linear 0.1s;
+}
